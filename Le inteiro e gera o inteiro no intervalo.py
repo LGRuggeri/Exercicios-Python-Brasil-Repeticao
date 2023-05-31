@@ -1,7 +1,7 @@
 #Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo 
 #compreendido por eles.
 
-def main():
+def inteiros_Intervalo():
     n1 = int(input('Digite o primeiro número: '))
     n2 = int(input('Digite o segundo número: '))
     intervalo = []
@@ -17,8 +17,11 @@ def main():
             
     else:
         print('Os números digitados são iguais')
-        
+     
+    soma= sum(intervalo) 
     print(f'Os números digitados são {n1} e {n2}.')
     print(f'Os números inteiros que estão no intervalo compreendido por eles são {intervalo}.')
+    print(soma)
+    print(intervalo)
         
-main()
+inteiros_Intervalo()
