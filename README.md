@@ -1,4 +1,5 @@
 Lista de Exercícios : Estrutura de Repetição [Python]
+
 1. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
 
 2. Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
@@ -10,6 +11,7 @@ Idade: entre 0 e 150;
 Salário: maior que zero;
 Sexo: 'f' ou 'm';
 Estado Civil: 's', 'c', 'v', 'd';
+
 4. Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
 5. Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
@@ -35,6 +37,7 @@ Tabuada de 5:
 ...
 
 5 X 10 = 50
+
 13. Faça um programa que peça dois números, base e expoente, calcule e mostre o primeiro número elevado ao segundo número. Não utilize a função de potência da linguagem.
 
 14. Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de números pares e a quantidade de números impares.
@@ -76,6 +79,7 @@ Lojas Quase Dois - Tabela de preços
 ...
 
 50 - R$ 99.50
+
 30. O Sr. Manoel Joaquim acaba de adquirir uma panificadora e pretende implantar a metodologia da tabelinha, que já é um sucesso na sua loja de 1,99. Você foi contratado para desenvolver o programa que monta a tabela de preços de pães, de 1 até 50 pães, a partir do preço do pão informado pelo usuário, conforme o exemplo abaixo:
 
 Preço do pão: R$ 0.18
@@ -86,6 +90,7 @@ Panificadora Pão de Ontem - Tabela de preços
 ...
 
 50 - R$ 9.00
+
 31. O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e agora possui uma loja de conveniências. Faça um programa que implemente uma caixa registradora rudimentar. O programa deverá receber um número desconhecido de valores referentes aos preços das mercadorias. Um valor zero deve ser informado pelo operador para indicar o final da compra. O programa deve então mostrar o total da compra e perguntar o valor em dinheiro que o cliente forneceu, para então calcular e mostrar o valor do troco. Após esta operação, o programa deverá voltar ao ponto inicial, para registrar a próxima compra. A saída deve ser conforme o exemplo abaixo:
 
 Lojas Tabajara
@@ -130,6 +135,7 @@ Obs: Você deve verificar se o usuário não digitou o final menor que o inicial
 Esse funcionário foi contratado em 1995, com salário inicial de R$ 1.000,00;
 Em 1996 recebeu aumento de 1,5% sobre seu salário inicial;
 A partir de 1997 (inclusive), os aumentos salariais sempre correspondem ao dobro do percentual do ano anterior. Faça um programa que determine o salário atual desse funcionário. Após concluir isto, altere o programa permitindo que o usuário digite o salário inicial do funcionário.
+
 39. Faça um programa que leia dez conjuntos de dois valores, o primeiro representando o número do aluno e o segundo representando a sua altura em centímetros. Encontre o aluno mais alto e o mais baixo. Mostre o número do aluno mais alto e o número do aluno mais baixo, junto com suas alturas.
 
 40. Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre acidentes de trânsito. Foram obtidos os seguintes dados:
@@ -140,6 +146,7 @@ Número de acidentes de trânsito com vítimas (em 1999). Deseja-se saber:
 Qual o maior e menor índice de acidentes de transito e a que cidade pertence;
 Qual a média de veículos nas cinco cidades juntas;
 Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio.
+
 41. Faça um programa que receba o valor de uma dívida e mostre uma tabela com os seguintes dados: valor da dívida, valor dos juros, quantidade de parcelas e valor da parcela.
 
 Os juros e a quantidade de parcelas seguem a tabela abaixo:
@@ -147,13 +154,9 @@ Os juros e a quantidade de parcelas seguem a tabela abaixo:
 Quantidade de Parcelas % de Juros sobre o valor inicial da dívida
 
 1 0
-
 3 10
-
 6 15
-
 9 20
-
 12 25
 
 Exemplo de saída do programa:
@@ -163,6 +166,7 @@ Valor da Dívida - Valor dos Juros - Quantidade de Parcelas - Valor da Parcela
 R$ 1.000,00 - 0 - 1 - R$ 1.000,00
 R$ 1.100,00 - 100 - 3 - R$ 366,00
 R$ 1.150,00 - 150 - 6 - R$ 191,67
+
 42. Faça um programa que leia uma quantidade indeterminada de números positivos e conte quantos deles estão nos seguintes intervalos: [0-25], [26-50], [51-75] e [76-100]. A entrada de dados deverá terminar quando for lido um número negativo.
 
 43. O cardápio de uma lanchonete é o seguinte:
@@ -175,6 +179,7 @@ Bauru com ovo / 102 / R$ 1,50
 Hambúrguer / 103 / R$ 1,20
 Cheeseburguer / 104 / R$ 1,30
 Refrigerante / 105 / R$ 1,00
+
 44. Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. Calcule e mostre o valor a ser pago por item (preço * quantidade) e o total geral do pedido. Considere que o cliente deve informar quando o pedido deve ser encerrado. Em uma eleição presidencial existem quatro candidatos. Os votos são informados por meio de código. Os códigos utilizados são:
 
 1 , 2, 3, 4 - Votos para os respectivos candidatos
@@ -188,33 +193,27 @@ O total de votos nulos;
 O total de votos em branco;
 A percentagem de votos nulos sobre o total de votos;
 A percentagem de votos em branco sobre o total de votos. Para finalizar o conjunto de votos tem-se o valor zero.
+
 45. Desenvolver um programa para verificar a nota do aluno em uma prova com 10 questões, o programa deve perguntar ao aluno a resposta de cada questão e ao final comparar com o gabarito da prova e assim calcular o total de acertos e a nota (atribuir 1 ponto por resposta certa). Após cada aluno utilizar o sistema deve ser feita uma pergunta se outro aluno vai utilizar o sistema. Após todos os alunos terem respondido informar:
 
 Maior e Menor Acerto;
 Total de Alunos que utilizaram o sistema;
 A Média das Notas da Turma.
 Gabarito da Prova:
+
 01 - A
-
 02 - B
-
 03 - C
-
 04 - D
-
 05 - E
-
 06 - E
-
 07 - D
-
 08 - C
-
 09 - B
-
 10 - A
 
 Após concluir isto você poderia incrementar o programa permitindo que o professor digite o gabarito da prova antes dos alunos usarem o programa.
+
 46. Em uma competição de salto em distância cada atleta tem direito a cinco saltos. No final da série de saltos de cada atleta, o melhor e o pior resultados são eliminados. O seu resultado fica sendo a média dos três valores restantes. Você deve fazer um programa que receba o nome e as cinco distâncias alcançadas pelo atleta em seus saltos e depois informe a média dos saltos conforme a descrição acima informada (retirar o melhor e o pior salto e depois calcular a média). Faça uso de uma lista para armazenar os saltos. Os saltos são informados na ordem da execução, portanto não são ordenados. O programa deve ser encerrado quando não for informado o nome do atleta. A saída do programa deve ser conforme o exemplo abaixo:
 
 Atleta: Rodrigo Curvêllo
@@ -263,6 +262,7 @@ Atleta: Aparecido Parente
 Melhor nota: 9.9
 Pior nota: 7.5
 Média: 9,04
+
 48. Faça um programa que peça um numero inteiro positivo e em seguida mostre este numero invertido.
 
 Exemplo:
@@ -271,7 +271,7 @@ Exemplo:
 
 => 98467321
 
-49 Faça um programa que mostre os n termos da Série a seguir:
+49. Faça um programa que mostre os n termos da Série a seguir:
 
 S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m.
 
@@ -285,4 +285,4 @@ S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m.
 
 Imprima no final a soma da série.
 
-Retirada do Site: https://wiki.python.org.br/EstruturaDeRepeticao
+Retirada do Site: https://wiki.python.org.br/ListaDeExercicios
