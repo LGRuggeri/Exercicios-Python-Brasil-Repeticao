@@ -169,7 +169,7 @@ R$ 1.150,00 - 150 - 6 - R$ 191,67
 
 42. Faça um programa que leia uma quantidade indeterminada de números positivos e conte quantos deles estão nos seguintes intervalos: [0-25], [26-50], [51-75] e [76-100]. A entrada de dados deverá terminar quando for lido um número negativo.
 
-43. O cardápio de uma lanchonete é o seguinte:
+43. Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. Calcule e mostre o valor a ser pago por item (preço * quantidade) e o total geral do pedido. Considere que o cliente deve informar quando o pedido deve ser encerrado. O cardápio de uma lanchonete é o seguinte:
 
 Especificação / Código / Preço
 
@@ -180,7 +180,7 @@ Hambúrguer / 103 / R$ 1,20
 Cheeseburguer / 104 / R$ 1,30
 Refrigerante / 105 / R$ 1,00
 
-44. Faça um programa que leia o código dos itens pedidos e as quantidades desejadas. Calcule e mostre o valor a ser pago por item (preço * quantidade) e o total geral do pedido. Considere que o cliente deve informar quando o pedido deve ser encerrado. Em uma eleição presidencial existem quatro candidatos. Os votos são informados por meio de código. Os códigos utilizados são:
+44. Em uma eleição presidencial existem quatro candidatos. Os votos são informados por meio de código. Os códigos utilizados são:
 
 1 , 2, 3, 4 - Votos para os respectivos candidatos
 (você deve montar a tabela ex: 1 - Jose/ 2- João/etc)
